@@ -1,0 +1,40 @@
+# Black-Scholes Pricing model
+
+# 7 inputs
+    # Volatility
+    # Stock price
+    # Strike price
+    # Time to expiry
+    # Interest rate
+    # Purchase price for the call
+    # Purchase price for the put
+
+# 4 outputs
+    # call value
+    # put value
+    # PNL for call
+    # PNL for put
+
+# Interactive GUI layer (streamlit)
+    # Volatility
+    # Stock price
+    # Strike price
+    # Time to expiry
+    # Interest rate
+
+    # Min spot price
+    # max spot price
+    # Min volatility for heatmap
+    # Max volatility for heatmap
+
+    # Generates a call value and put value heatmap
+        # Generate a PNL heatmap of the call and put
+    # greener values reflect higher numbers
+        # Green for positive PNL
+    # redder values reflect lower numbers
+        # Red for negative PNL
+
+
+# Everytime Calculate is hit
+    # All input and outputs should be saved to sql relational database
+
